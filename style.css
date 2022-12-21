@@ -1,0 +1,106 @@
+body {
+  background-image: url("bg.png");
+}
+
+#gameover {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  
+}
+#turn {
+  
+  margin-top:1rem;
+  
+}
+h1 {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  padding: 2rem;
+}
+
+.a1 {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+  font-size: 4rem;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.reset {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  color: white;
+  margin: 0 auto 0px auto;
+  font-size: 2rem;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 998px) {
+  .a1 {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 9rem;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    font-size: 4rem;
+  }
+  h1 {
+    font-family: "Press Start 2P", cursive;text-align: center;
+    padding: 2rem;
+    
+ 
+  }
+  .h {
+    margin-bottom:70px;
+    margin-top:50px;
+    font-size:4rem;
+  }
+
+  .reset {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    color: white;
+    margin: 20px auto 20px auto;
+    font-size: 2rem;
+  }
+
+  #gameover {
+    margin-top: 10px;
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    padding: 1rem;
+    font-size:2rem;
+  }
+
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
